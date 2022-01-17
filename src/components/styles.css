@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Moon+Dance&family=Orbitron:wght@600&family=Parisienne&family=Rubik+Beastly&family=Satisfy&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 110px;
+    cursor: pointer;
+    margin-top: -5px;
+}
+
+.header {
+    text-align: center;
+    height: 10vh;
+    background: linear-gradient(to right, #fc00ff, #00dbde);
+}
+
+.body {
+    height: 80vh;
+    background: linear-gradient(to right, #fc00ff, #00dbde);
+    text-align: center;
+    
+
+}
+.body-container {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    top: 10em;
+    position: relative;
+}
+
+.count {
+    border-radius: 50%;
+    padding: 30px;
+    outline: none;
+    border: none;
+    font-family: 'Orbitron', sans-serif;
+}
+
+button {
+    padding: 15px;
+    margin: 10px;
+    border-radius: 12px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-family: 'Satisfy', cursive;
+}
+
+button:hover {
+    background: linear-gradient(to right, #7b4397, #dc2430);
+    box-shadow: 0 5px 15px rgba(241, 10, 172, 0.986);
+
+}
+
+.start-stop {
+    margin-top: 10px;
+    
+}
+.privacy ul {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.privacy ul a {
+    text-decoration: none;
+    margin: 10px;
+    font-family: 'Rubik Beastly', cursive;
+    color: whitesmoke;
+}
+
+.footer {
+    display: block;
+    height: 10vh;
+    text-align: center;
+    background: linear-gradient(to right, #fc00ff, #00dbde);
+
+    
+    
+    
+}
+
+.copy {
+    font-family: 'Satisfy', cursive;
+   
+}
+
+.cp {
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+}
+
+.copy p {
+    display: block;
+    position: relative;
+    top: 10px;
+    
+}
+
+
+
+
